@@ -38,10 +38,11 @@ export default function Weather(props) {
     );
 }
 
+
 const styles = StyleSheet.create({
     backdrop: {
-        /* flexDirection: 'column',
-        justifyContent: 'space-between', */
+        flexDirection: 'column',
+        justifyContent: 'space-between',
         alignItems: 'center',
         width: '100%',
         height: '100%'
